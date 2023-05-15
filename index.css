@@ -3,7 +3,20 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-
+}
+h1{
+    padding: 4rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+.aqua{
+    font-weight: 900;
+    color: aqua;
+    text-shadow: 0 0 0px #fff, 0 0 50px aqua;
+} 
+input:active{
+        transform: scale(.90);
 }
 .container{
     height: 100vh;
@@ -12,11 +25,13 @@
     justify-content: center;
     align-items: center;
     background-color: #E2F6FD;
+    flex-direction: column;
 }
 .container .calculator{
     background-color: #394753;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 0 0px #fff, 0 0 25px  aqua;
 }
 .calculator  input{
     background-color: #394753;
